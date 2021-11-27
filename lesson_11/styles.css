@@ -1,0 +1,29 @@
+.header-area {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 500px;
+}
+
+.item {
+  color: rgb(139, 12, 12);
+}
+
+.itemDisabled {
+  color: rgb(12, 139, 23);
+}
+
+.box {
+  width: 200px;
+}
+
+.image {
+  width: 100%;
+}
+.box:hover {
+  display: none;
+}
